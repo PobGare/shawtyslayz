@@ -32,7 +32,7 @@ The checkout and order experience is conceptual and is not connected to a produc
 
 ## Live Website
 
-Live deployment coming soon.
+https://shawtyslayz.vercel.app/
 
 ## Author
 
