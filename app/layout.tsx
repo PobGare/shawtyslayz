@@ -4,7 +4,8 @@ import './globals.css';
 
 const archivo = localFont({ src: '../node_modules/@fontsource-variable/archivo/files/archivo-latin-wght-normal.woff2', variable: '--font-display', display: 'swap', weight: '100 900' });
 const dmSans = localFont({ src: '../node_modules/@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2', variable: '--font-body', display: 'swap', weight: '100 1000' });
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://shawtyslayz.vercel.app"),
   title: "ShawtySlayz — Fashion E-commerce Website",
   description:
     "A premium fashion e-commerce experience built with Next.js, React, and TypeScript.",
